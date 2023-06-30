@@ -10,8 +10,6 @@ document.getElementById("submit_btn").addEventListener('click', function(){
 })
 
 
-
-
 function getColorScheme() {
     let hexValue = colorSelection.value.slice(1)
     let colorMode = colorScheme.value

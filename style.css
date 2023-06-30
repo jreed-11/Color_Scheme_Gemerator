@@ -29,6 +29,7 @@ h1 {
 }
 
 button,
+.color,
 select {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
@@ -55,7 +56,7 @@ select {
 
 
 .color_select {
-    /* border: 1px solid red; */
+   
     align-items: center;
     display: flex;
     gap: 1.3rem;
@@ -94,9 +95,26 @@ button {
     width: 12.3rem;
 }
 
+.hex-container {
+    height: 5rem;
+    align-items: center;
+}
+
+.hex-container,
 .color-container {
-    border: 1px solid red;
+    display: flex
+}
+.color-container {
     height:40rem;
+    width: 100%;
+}
+
+.color {
+    color: #D5D4D8;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    width: 20%;
 }
 
 
