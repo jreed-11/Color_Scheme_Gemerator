@@ -14,7 +14,7 @@ function getColorScheme() {
     let hexValue = colorSelection.value.slice(1)
     let colorMode = colorScheme.value
 
-    fetch(`https://www.thecolorapi.com/scheme?hex=${hexValue}&${colorMode}&count=5`, {
+    fetch(`https://www.thecolorapi.com/scheme?hex=${hexValue}&mode=${colorMode}&count=5`, {
     method:"GET"
 })
 
